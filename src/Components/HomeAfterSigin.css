@@ -1,0 +1,221 @@
+
+video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+body {
+        
+        background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Blue-Pattern-Background-For-Free-Download.jpg");
+        background-position: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+      }
+      video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+                .popup {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+      /* Define the styles for the pop-up text */
+      .popup .popuptext {
+        visibility: hidden;
+        width: 120px;
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 8px 0;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        margin-left: -60px;
+        opacity: 0;
+        transition: opacity 0.3s;
+      }
+      /* Show the pop-up text when the mouse hovers over the icon */
+      .popup:hover .popuptext {
+        visibility: visible;
+        opacity: 1;
+      }
+                #develop{
+                    float: center;
+                    height:600px;
+                    width:550px;
+                    background: #159957;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #155799, #159957);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #155799, #159957); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+                    border: 2px;
+                    
+                    border-radius: 20px;
+                    border-color: white;
+                    
+                }
+                #warning{
+                    float: center;
+                    height:220px;
+                    width:450px;
+                    background-color: antiquewhite;
+                    border: 2px;
+                    border-radius: 20px;
+                    border-color: black;
+                }
+                #medic1{
+                    display: none;
+                }
+                #medic2{
+                    display: none;
+                }
+                #medic3{
+                    display: none;
+                }
+                #medic4{
+                    display: none;
+                }
+                #medic5{
+                    display: none;
+                }
+                #medic6{
+                    display: none;
+                }
+                #medic7{
+                    display: none;
+                }
+                #medic8{
+                    display: none;
+                }
+
+                #health{
+                    margin-top: 3%;
+                }
+                        @keyframes blink {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color:red; }
+  }
+  /* Apply the animation to the text */
+  .blink {
+    animation: blink 1s linear infinite;
+    font-size: 36px;
+    margin-top: -7%;
+  }
+                       
+                        
+                       
+                        
+ label {
+  display: inline-block;
+}
+   input[type="checkbox"] {
+  transform: scale(3); /* Increase size of checkbox */
+}
+
+   
+    #response{
+        display: block;
+    }
+.input-box {
+	width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+	background-image: url("https://media.istockphoto.com/id/1092823870/vector/seamless-background-pattern-gray-grayscale-wallpaper-vector-illustration.jpg?s=612x612&w=0&k=20&c=5ZYHWgqb1ZIpepWFOFwyDDPEaUTB_wJ82RDue1-E9Dc=");
+	border-radius: 20px;
+    margin-top:30px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+#box2{
+    display: none;
+}
+
+label {
+    display: block;
+	margin-bottom: 8px;
+}
+
+input[type="text"], input[type="number"], select {
+    display: block;
+	margin-bottom: 20px;
+	padding: 8px;
+	width: 100%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+input[type="submit"] {
+    background-color: #ff69b4;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+}
+input[type="submit1"] {
+    background-color: #ff69b4;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+    size: 40px;
+}
+input[type="submit2"] {
+    background-color: #ff69b4;
+	color: #fff;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+    size: 40px;
+}
+
+input[type="submit"]:hover {
+    background-color: #10ff58;
+    
+}
+input[type="submit1"]:hover {
+    background-color: #10ff58;
+    
+}
+input[type="submit2"]:hover {
+    background-color: #10ff58;
+    
+}
+output{
+    font-display: center;
+}
+#output1{
+display: none;
+}
+#output2{
+    margin-top: -30%;
+    display:flex;
+    align-items: center;
+    display: none;
+}
+#temp{
+    text-align: center;
+}
